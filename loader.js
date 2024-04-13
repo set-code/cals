@@ -4,7 +4,7 @@ $(document).ready(function() {
 
         $('#myApp').load("calc.html", function() {
             console.log("Calculator loaded!");
-            initApp(); // Инициализируйте приложение после того, как калькулятор загружен
+            initApp();
         });
     });
 });
