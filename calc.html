@@ -1,0 +1,58 @@
+
+<div class="calc_home">
+    <div>
+        Тип дома:
+        <select id="houseType">
+            <option value="6000">Из бруса</option>
+            <option value="4700">Каркасный дом</option>
+        </select>
+    </div>
+    <div>
+        Тип кровли:
+        <select id="roofType">
+            <option value="2000">Черепица</option>
+            <option value="5000">Мягкая кровля</option>
+        </select>
+    </div>
+    <div>
+        Количество этажей:
+        <select id="floorsCount">
+            <option value="1">1</option>
+            <option value="2">2</option>
+        </select>
+    </div>
+    <div>
+        Водосточная система: <input type="checkbox" id="gutterSystem" value="30000"> Да
+    </div>
+    <div>
+        Септик: <input type="checkbox" id="septic" value="70000"> Да
+    </div>
+    <div>
+        Канализация: <input type="checkbox" id="sewerage" value="50000"> Да
+    </div>
+    <div>
+        Ширина (м): <input type="number" id="width" min="0">
+    </div>
+    <div>
+        Длина (м): <input type="number" id="length" min="0">
+    </div>
+    <div>
+        Высота этажа (м): <input type="number" id="height" min="0">
+    </div>
+    <div>
+        Количество окон: <input type="number" id="windowCount" min="0">
+    </div>
+    <div>
+        Стоимость одного окна: <input type="number" id="windowPrice" min="0">
+    </div>
+    <div>
+        Количество дверей: <input type="number" id="doorCount" min="0">
+    </div>
+    <div>
+        Стоимость одной двери: <input type="number" id="doorPrice" min="0">
+    </div>
+
+    <button id="calculate">Рассчитать</button>
+
+    <h3>Стоимость строительства: <span id="cost">0</span></h3>
+</div>
